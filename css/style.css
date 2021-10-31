@@ -1,0 +1,112 @@
+header{
+    background: #d1d0ca;
+    padding: 20px 0; 
+}
+.caixa{
+    position:relative;
+    width: 940px;
+    margin:0 auto;
+}
+.fotoperfil{
+    border-radius: 100%;
+    max-width: 200px;
+    border: 1px solid black;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.caixa2{
+    position:relative;
+    width: 940px;
+    margin:0 auto; 
+}
+.sobremim{
+    width: 940px;
+    margin: 0;
+    padding: 50px 0;
+}
+.sobremim li{
+    display: inline-block;
+    text-align:center;
+    padding: 30px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+ }
+.sobremim h2{
+    font-size: 40px;
+    font-weight: bold
+}
+.sobremim p{
+    text-align:center;
+    font-size:21px;
+}
+.sobremim2 p{
+    text-align:center;
+    font-size:21px;
+}
+footer{
+    text-align: center;
+    background: url("fundoazul.jpg");
+    padding: 40px 0;
+}
+.rodape{
+    color: #ffffff;
+    font-size: 17px;
+}
+.caixa3{
+    position:relative;
+    width: 940px;
+    margin:0 auto; 
+}
+.formacao h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+}
+.formacao{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.formacao li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing:border-box;
+    border: 2px solid black;
+    border-radius: 10px;     
+}
+.formacao li:hover {
+    border-color: #c78c19;
+}
+.formacao li:active{
+    border-color: green;
+}
+.formacao li:hover h2{
+    font-size: 28px;
+}
+.formacao-descricao{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
